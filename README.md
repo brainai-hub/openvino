@@ -6,11 +6,8 @@
   
   <a href="https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html" target="_blank"> Intel® Digital Readiness Programs </a> <br>
   
-  AI for Youth <br>
-  For high school students.
-
-  * 설치 프로그램 및 버전
-    - Intel® OpenVINO 2021.4.LTS    
+  - 설치 프로그램 및 버전
+    * Intel® OpenVINO 2021.4.LTS    
   <br>
 
 ## OpenVINO 다운로드 
