@@ -20,6 +20,8 @@ Module 10, Module 11
 ## OpenVINO 다운로드 
 
   <a href="https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit-download.html?operatingsystem=window&distributions=webdownload&version=2021%204.1%20LTS&options=offline" target="_blank"> 다운로드 사이트 링크 </a>
+  
+  <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts.JPG" >
 
 
 ## OpenVINO 설치
