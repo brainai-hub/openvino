@@ -32,6 +32,12 @@
    * python -c "from openvino.inference_engine import IECore" 
  
 
+## OpenVINO 사용하기
+
+  OpenVINO를 사용할 때는 먼저 오픈비노 사용 환경(아래 이미지 참고)을 설정해야 합니다. 
+  <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:1400px;height:500px;">
+  
+  
 
 ## OpenVINO Use Cases 다운로드 
 
