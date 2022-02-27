@@ -1,5 +1,6 @@
 # Intel® Distribution of OpenVINO™ Toolkit  <br> 다운로드 및 설치하기
 
+https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html 
 
 ## OpenVINO 다운로드 
 
