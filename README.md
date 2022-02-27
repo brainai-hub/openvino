@@ -1,6 +1,11 @@
 # Intel® Distribution of OpenVINO™ Toolkit  <br> 다운로드 및 설치하기
 
-https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html 
+https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html <br>
+Intel® Digital Readiness Programs <br>
+AI for Youth
+For high school students.
+
+Module 10, Module 11
 
 ## OpenVINO 다운로드 
 
