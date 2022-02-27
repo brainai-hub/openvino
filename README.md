@@ -19,7 +19,8 @@
   
 ## OpenVINO 설치
 
-
+ - 다운로드 받은 파일을 찾아 설치합니다.
+ - 
 
 ## OpenVINO 사용 가상 환경 설치
  - 가상 환경 설치
@@ -47,12 +48,16 @@
  - (openvino_env)(base) C:\BrainAI>python -c "from openvino.inference_engine import IECore" 
  - (openvino_env)(base) C:\BrainAI>jupyter lab
 
-### 수고하셨습니다.
-  
-  
 
 ## OpenVINO Use Cases 다운로드 
 
-
-
-## 
+  A collection of ready-to-run Jupyter notebooks for learning and experimenting with the OpenVINO™ Toolkit. 
+  
+  The notebooks provide an introduction to OpenVINO basics and teach developers how to leverage our API for optimized deep learning inference.
+  
+  https://github.com/openvinotoolkit/openvino_notebooks
+  
+  
+### 수고하셨습니다.
+  
+ 
