@@ -2,7 +2,7 @@
 
 https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html <br>
 Intel® Digital Readiness Programs <br>
-AI for Youth
+AI for Youth <br>
 For high school students.
 
 Module 10, Module 11
