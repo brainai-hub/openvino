@@ -37,7 +37,17 @@
   OpenVINO를 사용할 때는 먼저 오픈비노 사용 환경(아래 이미지 참고)을 설정해야 합니다. 
   <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
   
-  - 
+ - (base) C:\WINDOWS\system32\cd\
+ - (base) C:\cd BrainAI
+ - (base) C:\BrainAI>python -m venv openvino_env
+ - (base) C:\BrainAI>openvino_env\Scripts\activate
+ - (openvino_env)(base) C:\BrainAI>python -m pip install --upgrade pip
+ - (openvino_env)(base) C:\BrainAI>pip install openvino-dev[onnx,tensorflow2]
+ - (openvino_env)(base) C:\BrainAI>mo -h
+ - (openvino_env)(base) C:\BrainAI>python -c "from openvino.inference_engine import IECore" 
+ - (openvino_env)(base) C:\BrainAI>jupyter lab
+
+### 수고하셨습니다.
   
   
 
