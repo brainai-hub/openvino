@@ -10,10 +10,8 @@
   For high school students.
 
   * 설치 프로그램 및 버전
-    - Intel® OpenVINO 2021.4.LTS
-    
-  <br><br>
-
+    - Intel® OpenVINO 2021.4.LTS    
+  <br>
 
 ## OpenVINO 다운로드 
 
