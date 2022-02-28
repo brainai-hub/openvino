@@ -20,10 +20,10 @@
 ## OpenVINO 설치
 
  - 다운로드 받은 파일을 찾아 설치합니다.
- - 
+ - 환경 설정 파일을 실행한 후 Jupyter lab을 실행합니다.
 
-## OpenVINO 사용 가상 환경 설치
- - 가상 환경 설치
+## OpenVINO 사용 가상 환경 설치 : Intel® Distribution of OpenVINO™ Toolkit Developer Package
+   Model Downloader 설치 : omz_dowloader
  - openvino-dev pakage 설치 : 참고사이트 https://pypi.org/project/openvino-dev/ <br>
    * python -m venv openvino_env <br>
    * openvino_env\Scripts\activate <br>
@@ -33,7 +33,7 @@
    * python -c "from openvino.inference_engine import IECore" 
  
 
-## OpenVINO 사용하기
+## OpenVINO 모델 다운로드 하여 사용하기
 
   OpenVINO를 사용할 때는 먼저 오픈비노 사용 환경(아래 이미지 참고)을 설정해야 합니다. 
   <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
