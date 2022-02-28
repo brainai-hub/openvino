@@ -46,6 +46,7 @@ https://github.com/PaddlePaddle/PaddleGAN/blob/develop/docs/zh_CN/install.md
  - (BrainAI) C:\BrainAI>cd PaddleGAN
  - (BrainAI) C:\BrainAI>PaddleGAN>pip install --upgrade ppgan
  - (BrainAI) C:\BrainAI>PaddleGAN>python setup.py develop
+ - (BrainAI) C:\BrainAI>pip install paddle2onnx
  -  >>> import paddlegan
  - (BrainAI) C:\BrainAI>jupyter lab 
 
