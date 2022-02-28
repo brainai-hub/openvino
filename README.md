@@ -17,16 +17,17 @@
 
   <a href="https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit-download.html?operatingsystem=window&distributions=webdownload&version=2021%204.1%20LTS&options=offline" target="_blank"> 다운로드 사이트 링크 </a>
   
-## 오픈비노 환경 초기화 OpenVINO environment initialized
+## OpenVINO 설치
 
  - 다운로드 받은 파일을 찾아 설치합니다.
  - 
 
 
-## 오픈비노 환경 초기화 OpenVINO environment initialized
+## OpenVINO 환경 초기화(OpenVINO environment initialized)
 
    오픈 비노를 사용할 때는 오픈비노 환경 초기화가 되어 있어야 합니다. 다음 순서대로 오픈비노 환경 초기화 후 Jupyter lab을 실행합니다.
-   
+ <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
+ 
  - (BrainAI) C:\WINDOWS\system32>cd\
  - (BrainAI) C:\>cd "Program Files (x86)"
  - (BrainAI) C:\Program Files (x86)>cd Intel
@@ -73,9 +74,8 @@ https://github.com/PaddlePaddle/PaddleGAN/blob/develop/docs/zh_CN/install.md
 401-403
 ## OpenVINO 모델 다운로드 하여 사용하기
 
-  OpenVINO를 사용할 때는 먼저 오픈비노 사용 환경(아래 이미지 참고)을 설정해야 합니다. 
-  <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
-  
+  OpenVINO 모델을 다운로드 하기 위해서는 openvino-dev 패키지가 설치되어 있어야 합니다. 
+
  - (BrainAI) C:\WINDOWS\system32\cd\
  - (BrainAI) C:\cd BrainAI
  - (BrainAI) C:\BrainAI>python -m venv openvino_env
