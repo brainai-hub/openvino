@@ -17,11 +17,29 @@
 
   <a href="https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit-download.html?operatingsystem=window&distributions=webdownload&version=2021%204.1%20LTS&options=offline" target="_blank"> 다운로드 사이트 링크 </a>
   
-## OpenVINO 설치
+## 오픈비노 환경 초기화 OpenVINO environment initialized
 
  - 다운로드 받은 파일을 찾아 설치합니다.
- - 환경 설정 파일을 실행한 후 Jupyter lab을 실행합니다.
+ - 
 
+
+## 오픈비노 환경 초기화 OpenVINO environment initialized
+
+   오픈 비노를 사용할 때는 오픈비노 환경 초기화가 되어 있어야 합니다. 다음 순서대로 오픈비노 환경 초기화 후 Jupyter lab을 실행합니다.
+   
+ - (BrainAI) C:\WINDOWS\system32>cd\
+ - (BrainAI) C:\>cd "Program Files (x86)"
+ - (BrainAI) C:\Program Files (x86)>cd Intel
+ - (BrainAI) C:\Program Files (x86)\Intel>cd openvino_2021.4.689
+ - (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689>cd bin
+ - (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689\bin>setupvars.bat
+    Python 3.8.12
+    [setupvars.bat] OpenVINO environment initialized    
+ - (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689\bin>cd\
+ - (BrainAI) C:\>cd BrainAI
+ - (BrainAI) C:\BrainAI>jupyter lab
+
+ 
 101-104
 ## OpenVINO 사용 가상 환경 설치 : Intel® Distribution of OpenVINO™ Toolkit Developer Package
    Model Downloader 설치 : omz_dowloader
