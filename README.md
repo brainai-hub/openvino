@@ -1,5 +1,5 @@
 # Pre-trained 모델 활용하기
-## Intel® Distribution of OpenVINO™ Toolkit  <br> 다운로드 및 설치하기      
+## Intel® Distribution of OpenVINO™ Toolkit      
 
   인텔 Digital Readiness programs 중 AI for Youth Program의 <br>
   Stage 4. 소셜임팩트 창출하기 / Module 10, Module 11(Use Cases) 실습을 위한 가상 학습 환경 만들기에 대한 도움 자료입니다. 
