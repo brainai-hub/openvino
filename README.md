@@ -15,7 +15,7 @@
  
   <br>
 
-## OpenVINO 다운로드 
+## 1. OpenVINO 다운로드 
   
   아래 이미지를 참고하여 OpenVINO 다운로드 사이트에서 Intel® OpenVINO 2021.4.LTS 를 다운로드합니다.
   
@@ -23,13 +23,13 @@
 
   <a href="https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit-download.html?operatingsystem=window&distributions=webdownload&version=2021%204.1%20LTS&options=offline" target="_blank"> 다운로드 사이트 링크 </a>
   
-## OpenVINO 설치
+## 2. OpenVINO 설치
 
  - 다운로드 받은 파일을 찾아 설치합니다.
  - 
 
 
-## OpenVINO 환경 초기화(OpenVINO environment initialized)
+## 3. OpenVINO 환경 초기화(OpenVINO environment initialized)
 
    오픈 비노를 사용할 때는 오픈비노 환경 초기화가 되어 있어야 합니다. 다음 순서대로 오픈비노 환경 초기화 후 Jupyter lab을 실행합니다.
  <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
@@ -47,54 +47,6 @@
  - (BrainAI) C:\BrainAI>jupyter lab
 
  
-101-104
-## OpenVINO 사용 가상 환경 설치 : Intel® Distribution of OpenVINO™ Toolkit Developer Package
-   Model Downloader 설치 : omz_dowloader
- - openvino-dev pakage 설치 : 참고사이트 https://pypi.org/project/openvino-dev/ <br>
-   * python -m venv openvino_env <br>
-   * openvino_env\Scripts\activate <br>
-   * python -m pip install --upgrade pip <br>
-   * pip install openvino-dev[onnx,tensorflow2] <br>
-   * mo -h  <br>
-   * python -c "from openvino.inference_engine import IECore" 
-
-
-206 - vision-paddlegan-anime
-https://github.com/PaddlePaddle/PaddleGAN
-https://github.com/PaddlePaddle/PaddleGAN/blob/develop/docs/zh_CN/install.md
-
- - (BrainAI) C:\BrainAI>python -m pip install paddlepaddle -i https://mirror.baidu.com/pypi/simple
- - >>> import paddle
- - >>> paddle.utils.run_check()
- - >>> print(paddle.__version__)
- - (BrainAI) C:\BrainAI>git clone https://github.com/PaddlePaddle/PaddleGAN
- - (BrainAI) C:\BrainAI>cd PaddleGAN
- - (BrainAI) C:\BrainAI>PaddleGAN>pip install --upgrade ppgan
- - (BrainAI) C:\BrainAI>PaddleGAN>python setup.py develop
- - (BrainAI) C:\BrainAI>pip install paddle2onnx
- -  >>> import paddlegan
- - (BrainAI) C:\BrainAI>jupyter lab 
-
-
- 
-401-403
-## OpenVINO 모델 다운로드 하여 사용하기
-
-  OpenVINO 모델을 다운로드 하기 위해서는 openvino-dev 패키지가 설치되어 있어야 합니다. 
-
- - (BrainAI) C:\WINDOWS\system32\cd\
- - (BrainAI) C:\cd BrainAI
- - (BrainAI) C:\BrainAI>python -m venv openvino_env
- - (BrainAI) C:\BrainAI>openvino_env\Scripts\activate
- - (openvino_env)(BrainAI) C:\BrainAI>python -m pip install --upgrade pip
- - (openvino_env)(BrainAI) C:\BrainAI>pip install openvino-dev[onnx, tensorflow2]
-   * OpenVINO 환경 설정 파일을 실행합니다. (openvino_env) (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689\bin>setupvars.bat
- - (openvino_env)(BrainAI) C:\BrainAI>mo -h
-   * 에러 없이 실행되면 잘 설치된 것입니다.
- - (openvino_env)(BrainAI) C:\BrainAI>python -c "from openvino.inference_engine import IECore" 
-   * 에러 없이 실행되면 OpenVINO를 정상적으로 사용할 수 있는 상태가 된 것입니다.
- - (openvino_env)(BrainAI) C:\BrainAI>jupyter lab
-
 
 ## OpenVINO Use Cases 다운로드 
 
