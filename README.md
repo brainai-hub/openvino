@@ -1,4 +1,4 @@
-# AI Pre-trained 모델 활용하기
+# Pre-trained 모델 활용하기
 ## Intel® Distribution of OpenVINO™ Toolkit  <br> 다운로드 및 설치하기      
 
   인텔 Digital Readiness programs 중 AI for Youth Program의 <br>
