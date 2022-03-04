@@ -2,11 +2,17 @@
 ## Intel® Distribution of OpenVINO™ Toolkit      
 
   인텔 Digital Readiness programs 중 AI for Youth Program의 <br>
-  Stage 4. 소셜임팩트 창출하기 / Module 10, Module 11(Use Cases) 실습을 위한 가상 학습 환경 만들기에 대한 도움 자료입니다. 
+  Stage 4. 소셜임팩트 창출하기 / Module 10, Module 11(Use Cases) 실습을 위한 도움 자료입니다. 
   
   <a href="https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html" target="_blank"> Intel® Digital Readiness Programs </a> <br>
   
- - 설치 프로그램 및 버전 : Intel® OpenVINO 2021.4.LTS    
+ - 설치 프로그램 및 버전 : Intel® OpenVINO 2021.4.LTS   
+ 
+ 1. OpenVINO 다운로드
+ 2. OpenVINO 설치
+ 3. OpenVINO 환경 초기화
+ 4. 기타 패키지 설치
+ 
   <br>
 
 ## OpenVINO 다운로드 
