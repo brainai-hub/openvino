@@ -6,8 +6,10 @@
   
   <a href="https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html" target="_blank"> Intel® Digital Readiness Programs </a> <br>
   
- - 설치 프로그램 및 버전 : Intel® OpenVINO 2021.4.LTS   
+ - 설치 프로그램 및 버전 : Intel® OpenVINO 2021.4.LTS  참고 사이트: https://docs.openvino.ai/2021.4/index.html
  
+   <img src="https://docs.openvino.ai/2021.4/_static/images/ov_chart.png">
+
  1. OpenVINO 다운로드
  2. OpenVINO 설치
  3. OpenVINO 환경 초기화
