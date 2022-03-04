@@ -11,7 +11,7 @@
  1. OpenVINO 다운로드
  2. OpenVINO 설치
  3. OpenVINO 환경 초기화
- 4. 기타 패키지 설치
+ 4. OpenVINO 모델 및 Use Cases(OpenVINO notebook) 다운로드
  
   <br>
 
@@ -33,7 +33,7 @@
 
 ## 3. OpenVINO 환경 초기화(OpenVINO environment initialized)
 
-   오픈 비노를 사용할 때는 오픈비노 환경 초기화가 되어 있어야 합니다. 다음 순서대로 오픈비노 환경 초기화 후 Jupyter lab을 실행합니다. <
+   오픈 비노를 사용할 때는 오픈비노 환경 초기화가 되어 있어야 합니다. 다음 순서대로 오픈비노 환경 초기화 후 Jupyter lab을 실행합니다. <br>
    참고 링크: https://docs.openvino.ai/2021.4/openvino_docs_install_guides_installing_openvino_windows.html#set-the-environment-variables
    
  <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
@@ -50,15 +50,11 @@
  - (BrainAI) C:\>cd BrainAI
  - (BrainAI) C:\BrainAI>jupyter lab
 
- 
 
-## OpenVINO Use Cases 다운로드 
+## 4. OpenVINO Use Cases 다운로드 
 
-  A collection of ready-to-run Jupyter notebooks for learning and experimenting with the OpenVINO™ Toolkit. 
-  
-  The notebooks provide an introduction to OpenVINO basics and teach developers how to leverage our API for optimized deep learning inference.
-  
-  https://github.com/openvinotoolkit/openvino_notebooks
+  - OpenVINO™ Toolkit을 활용한 Use Cases를 다운로드 받아 직접 배워볼 수 있습니다.    
+    * 참고 링크: https://github.com/openvinotoolkit/openvino_notebooks
   
   
 ### 수고하셨습니다.
