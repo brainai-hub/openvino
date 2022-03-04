@@ -43,9 +43,9 @@
  - (BrainAI) C:\Program Files (x86)>cd Intel
  - (BrainAI) C:\Program Files (x86)\Intel>cd openvino_2021.4.689
  - (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689>cd bin
- - (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689\bin>setupvars.bat
+ - (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689\bin>setupvars.bat <br>
     Python 3.8.12
-    [setupvars.bat] OpenVINO environment initialized    
+    <b>[setupvars.bat] OpenVINO environment initialized    </b>
  - (BrainAI) C:\Program Files (x86)\Intel\openvino_2021.4.689\bin>cd\
  - (BrainAI) C:\>cd BrainAI
  - (BrainAI) C:\BrainAI>jupyter lab
