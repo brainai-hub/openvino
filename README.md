@@ -38,7 +38,7 @@
    오픈 비노를 사용할 때는 오픈비노 환경 초기화가 되어 있어야 합니다. 다음 순서대로 오픈비노 환경 초기화 후 Jupyter lab을 실행합니다. <br>
    참고 링크: https://docs.openvino.ai/2021.4/openvino_docs_install_guides_installing_openvino_windows.html#set-the-environment-variables
    
-   선택 1. 아래 이미지 내용과 설정 과정을 참고하여 직접 오픈비노 환경을을 초기화할 수 있습니다.
+   <b>선택 1.</b> 아래 이미지 내용과 설정 과정을 참고하여 직접 오픈비노 환경을을 초기화할 수 있습니다.
    
  <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
  
@@ -55,10 +55,12 @@
  - (BrainAI) C:\>cd BrainAI
  - (BrainAI) C:\BrainAI\jupyter lab
 
-  선택 2. 제공되는 배치 파일을 다운 받아 사용할 수 있습니다. 파일 다운 로드 링크: https://github.com/BrainAI-Lab/openvino/blob/main/openvino_setup.rar 
+  <b>선택 2.</b> 제공되는 배치 파일을 다운 받아 사용할 수 있습니다. 
+  
+  * 파일 다운 로드 링크: https://github.com/BrainAI-Lab/openvino/blob/main/openvino_setup.rar 
  
  - 다운로드 파일을 압축을 풀어 C:\BrainAI\ 폴더로 옮긴다. 
- - 가상 환경 Command 창에서 
+   가상 환경 Command 창에서 
  - (BrainAI) C:\WINDOWS\system32>cd\
  - (BrainAI) C:\>cd BrainAI
  - (BrainAI) C:\>cd BrainAI\openvino_setup.bat
