@@ -78,7 +78,7 @@
 
   - OpenVINO™ Toolkit을 활용한 Use Cases를 다운로드 받아 직접 배워볼 수 있습니다.    
     * 추후 제공
-    * 참고 사이트: https://github.com/openvinotoolkit/openvino_notebooks
+    * 참고 사이트: https://github.com/openvinotoolkit/openvino_notebooks/tree/2021.4/notebooks
 
   - OpenVINO 모델을 다운받을 수 있습니다. 
     * 참고 링크: https://storage.openvinotoolkit.org/repositories/open_model_zoo/
