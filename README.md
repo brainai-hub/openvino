@@ -69,8 +69,9 @@
     계속하려면 아무 키나 누르십시오 . . .
     
  - (BrainAI) C:\BrainAI>jupyter lab
-  * Jupyter lab에서 다음 명령 실행 후 에러 없으면 정상적으로 설치된 것입니다.
-  [  from openvino.inference_engine import IECore  ]
+  * Jupyter lab에서 다음 명령 실행 후 에러 없으면 정상적으로 설치된 것입니다.<br>
+  [  from openvino.inference_engine import IECore  ] <br>
+  
 
   
 
