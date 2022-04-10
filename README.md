@@ -1,7 +1,7 @@
 # Pre-trained 모델 활용하기
 ## Intel® Distribution of OpenVINO™ Toolkit      
 
-  인텔 Digital Readiness programs 중 AI for Youth Program의 <br>
+<a href="https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html" target=_blank> Intel® Digital Readiness Programs </a>  중 AI for Youth Program의 <br>
   Stage 4. 소셜임팩트 창출하기 / Module 10, Module 11(Use Cases) 실습을 위한 도움 자료입니다. 
   
   <a href="https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html" target="_blank"> Intel® Digital Readiness Programs </a> <br>
