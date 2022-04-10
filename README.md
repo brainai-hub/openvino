@@ -72,7 +72,7 @@
   * Jupyter lab에서 다음 명령 실행 후 에러 없으면 정상적으로 설치된 것입니다.<br>
   [  from openvino.inference_engine import IECore  ] <br>
   
-<img src="https://github.com/BrainAI-Lab/openvino/blob/main/openVINO.JPG" style="width:586px;height:307px;">
+<img src="https://github.com/BrainAI-Lab/openvino/blob/main/openVINO.JPG" style="width:586px;height:268px;">
   
 
 ## 4. OpenVINO 모델 및 Use Cases(OpenVINO notebook) 다운로드
