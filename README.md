@@ -40,7 +40,7 @@
    
    <b>선택 1.</b> 아래 이미지 내용과 설정 과정을 참고하여 직접 오픈비노 환경을을 초기화할 수 있습니다.
    
- <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:586px;height:307px;">
+ <img src="https://github.com/BrainAI-Lab/openvino/blob/main/openvino-2021.4.lts-01.JPG" style="width:633px;height:268px;">
  
  
  - (BrainAI) C:\WINDOWS\system32>cd\
