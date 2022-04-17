@@ -19,7 +19,7 @@
   
   아래 이미지를 참고하여 OpenVINO 다운로드 사이트에서 Intel® OpenVINO 2021.4.LTS 를 다운로드합니다.
   
-  <a href="https://drive.google.com/drive/folders/1SulDRcVE3gnqJMD0SNh8KB_kXtB-dhXK?usp=sharing" target="_blank"> 다운로드 사이트 링크 </a>
+  <a href="https://drive.google.com/file/d/1KecP36hWjV-hvbm8CaO77UzxKElRhxej/view?usp=sharing" target="_blank"> 다운로드 링크 </a>
   
 ## 2. OpenVINO 설치
 
