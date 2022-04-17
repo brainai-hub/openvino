@@ -19,7 +19,7 @@
   
   아래 이미지를 참고하여 OpenVINO 다운로드 사이트에서 Intel® OpenVINO 2021.4.LTS 를 다운로드합니다.
   
-  <a href="https://www.intel.com/content/www/us/en/developer/tools/openvino-toolkit-download.html?operatingsystem=window&distributions=webdownload&version=2021%204.1%20LTS&options=offline" target="_blank"> 다운로드 사이트 링크 </a>
+  <a href="https://drive.google.com/drive/folders/1SulDRcVE3gnqJMD0SNh8KB_kXtB-dhXK?usp=sharing" target="_blank"> 다운로드 사이트 링크 </a>
   
 ## 2. OpenVINO 설치
 
@@ -53,15 +53,16 @@
 
   <b>선택 2.</b> 제공되는 배치 파일을 다운 받아 사용할 수 있습니다. 
   
-  * 파일 다운 로드 링크: https://github.com/BrainAI-Lab/openvino/blob/main/openvino_setup.rar 
+  * 파일 다운 로드 링크: https://github.com/BrainAI-Lab/openvino/blob/main/openvino_initialize.zip 
  
  - 다운로드 파일을 압축을 풀어 C:\BrainAI\ 폴더로 옮긴다. 
    가상 환경 Command 창에서 
  - (BrainAI) C:\WINDOWS\system32>cd\
  - (BrainAI) C:\>cd BrainAI
- - (BrainAI) C:\>cd BrainAI\openvino_setup.bat
-    Python 3.8.12
-    [setupvars.bat] OpenVINO environment initialized
+ - (BrainAI) C:\>cd BrainAI\openvino_initialize.bat <br>
+   * 아래 내용이 출력되면 아무 키나 누릅니다. <br>
+    Python 3.8.12 <br>
+    [setupvars.bat] OpenVINO environment initialized <br>
     계속하려면 아무 키나 누르십시오 . . .
     
  - (BrainAI) C:\BrainAI>jupyter lab
