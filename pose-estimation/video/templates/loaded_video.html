@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Brain AI Road Safety Project</title>
+		<!-- Company Logo-->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="static/assets/logo_vertical.png"
+		/>
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link
+			href="{{url_for('static', filename='css/styles.css')}}"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body class="d-flex flex-column h-100 bg-dark">
+		<main class="flex-shrink-0">
+			<!-- Navigation-->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container px-5">
+					<a class="navbar-brand" href="{{'/'}}"
+						>Brain AI Human Pose Eestimation Project</a
+					>
+				</div>
+			</nav>
+
+			<!-- Header-->
+			<header class="bg-dark py-5">
+				<div class="container px-5">
+					<div
+						class="row gx-5 align-items-center justify-content-center"
+					>
+						<div class="col-lg-8 col-xl-7 col-xxl-6">
+							<div class="my-5 text-center text-xl-start">
+								<h1 class="display-5 fw-bolder text-white mb-2">
+									Run Model
+								</h1>
+								<p></p>
+								<p class="lead fw-normal text-white-50 mb-4">
+									Press the Inference button to run the AI
+									model on your video. his may take a while.
+									Do not press the button more than once!
+								</p>
+								<div
+									class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start"
+								>
+									<a
+										class="btn btn-outline-light btn-lg px-4"
+										href="{{ url_for('run_inference') }}"
+										>Inference</a
+									>
+								</div>
+							</div>
+						</div>
+						<div
+							class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"
+						>
+							<video
+								style="max-height: 720px; max-width: 600px"
+								controls
+							>
+								<source
+									src="static/data/input.mp4"
+									type="video/mp4"
+								/>
+							</video>
+						</div>
+					</div>
+				</div>
+			</header>
+		</main>
+
+		<!-- Footer-->
+		<footer class="bg-dark py-4 mt-auto">
+			<div class="container px-5">
+				<div
+					class="row align-items-center justify-content-between flex-column flex-sm-row"
+				>
+					<div class="col-auto">
+						<div class="small m-0 text-white">
+							Copyright &copy; BrainAI 2024
+						</div>
+					</div>
+					<div class="col-auto">
+						<div
+							class="col-xl-5 col-xxl-6 d-none d-xl-block text-left"
+						>
+							<img
+								class="img-fluid rounded-3 my-5"
+								style="max-width: 100px"
+								src="static/assets/logo_horizontal_white.png"
+								alt="..."
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
