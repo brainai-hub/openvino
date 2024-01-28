@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Pose Detection Project</title>
+		<!-- Company Logo-->
+		<link
+			rel="icon"
+			type="image/x-icon"
+			href="static/assets/logo_vertical.png"
+		/>
+		<!-- Core theme CSS (includes Bootstrap)-->
+		<link
+			href="{{url_for('static', filename='css/styles.css')}}"
+			rel="stylesheet"
+		/>
+		<style>
+			.custom-submit-button:hover {
+				background-color: #0056b3;
+			}
+		</style>
+		<script>
+			// JavaScript function to open the webcam
+			function run_inference_webcam() {
+				// You can use JavaScript to trigger a POST request to your Flask route
+				// For simplicity, you can redirect the user to a new route that opens the webcam
+				window.location.href = "{{ url_for('run_inference_webcam') }}";
+			}
+		</script>
+	</head>
+
+	<body class="d-flex flex-column h-100 bg-dark">
+		<main class="flex-shrink-0">
+			<!-- Navigation-->
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<div class="container px-5">
+					<a class="navbar-brand" href="{{'/'}}"
+						>Brain AI: 인텔 오픈비노 활용 체험 프로젝트</a
+					>
+				</div>
+			</nav>
+			
+			<!-- Header-->
+			<header class="bg-dark py-5">
+				<div class="container px-5">
+					<div
+						class="row gx-5 align-items-center justify-content-center"
+					>
+						<div class="col-lg-8 col-xl-7 col-xxl-6">
+							<div class="my-5 text-center text-xl-start">
+								<h1 class="display-5 fw-bolder text-white mb-2">
+									run_inference_webcam
+								</h1>
+								<p class="lead fw-normal text-white-50 mb-4">
+									run_inference_webcam
+								</p>
+							</div>
+						</div>
+						<div
+							class="col-xl-5 col-xxl-6 d-none d-xl-block text-center"
+						>
+							<img
+								class="h-auto max-w-md"
+								id="run_inference_webcam"
+								src="{{ url_for('run_inference_webcam') }}"
+								alt="run_inference_webcam"
+							/>
+						</div>
+					</div>
+				</div>
+			</header>
+		</main>
+
+		
+		<!-- Footer-->
+		<footer class="bg-dark py-4 mt-auto">
+			<div class="container px-5">
+				<div
+					class="row align-items-center justify-content-between flex-column flex-sm-row"
+				>
+					<div class="col-auto">
+						<div class="small m-0 text-white">
+							Copyright &copy; BrainAI 2024
+						</div>
+					</div>
+					<div class="col-auto">
+						<div
+							class="col-xl-5 col-xxl-6 d-none d-xl-block text-left"
+						>
+							<img
+								class="img-fluid rounded-3 my-5"
+								style="max-width: 100px"
+								src="static/assets/logo_horizontal_white.png"
+								alt="..."
+							/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+	</body>
+
+	<script>
+		// JavaScript code to open the webcam and display the feed
+		document.addEventListener("DOMContentLoaded", function () {
+			// You can customize this based on your requirements
+			// For simplicity, we are just loading the webcam feed into an image element
+			document.getElementById("run_inference_webcam").src =
+				"{{ url_for('run_inference_webcam') }}";
+		});
+	</script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			const video = document.getElementById("run_inference_webcam");
+			navigator.mediaDevices
+				.getUserMedia({ video: true })
+				.then((stream) => {
+					video.srcObject = stream;
+				})
+				.catch((error) =>
+					console.error("Error accessing webcam:", error)
+				);
+		});
+	</script>
+
+</html>
