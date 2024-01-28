@@ -11,7 +11,7 @@
 <a href="https://www.intel.com/content/www/us/en/corporate/artificial-intelligence/digital-readiness-home.html" target=_blank> Intel® Digital Readiness Programs </a>  중 AI for Youth Program의 <br>
   Stage 4. 소셜임팩트 창출하기 / Module 10, Module 11(Use Cases) 실습에 활용되고 있습니다. 
   
- - 설치 프로그램 및 버전 : Intel® OpenVINO 2023.3.3  참고 사이트: [https://docs.openvino.ai/2023.3.3/index.html](https://docs.openvino.ai/2023.3/home.html target="_blank")
+ - 설치 프로그램 및 버전 : Intel® OpenVINO 2023.3.3  참고 사이트: [https://docs.openvino.ai/2023.3.3/index.html](https://docs.openvino.ai/2023.3/home.html)
  
    <img src="https://docs.openvino.ai/2023.3/_images/ov_homepage_diagram.png">
 
