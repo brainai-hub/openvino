@@ -16,9 +16,17 @@
    <img src="https://docs.openvino.ai/2023.3/_images/ov_homepage_diagram.png">
 
 
-  - OpenVINO 모델을 다운받을 수 있습니다. 
-    * 참고 링크: https://storage.openvinotoolkit.org/repositories/open_model_zoo/
   
-### 수고하셨습니다.
+ - 인텔 OpenVINO notebooks 다운로드 링크입니다. <br>
+  https://github.com/openvinotoolkit/openvino_notebooks.git
+
+ - 인텔 OpenVINO Pre-trained 모델 파일 다운로드 하고 싶으면 아래 링크를 참고하세요.<br>
+  [https://storage.openvinotoolkit.org/repositories/open_model_zoo/2022.3/models_bin/1/](https://storage.openvinotoolkit.org/repositories/open_model_zoo/2023.0/models_bin/1/)
+
+ - 인텔 OpenVINO Pre-trained 모델에 대해 자세히 알아보고 싶으면 아래 링크를 참고하세요. <br>
+  [https://docs.openvino.ai/2022.3/home.html](https://docs.openvino.ai/2023.2/get_started.html) <br>
   
- 
+ - 인텔 OpenVINO Model Zoo 다양한 Pre-trained 모델을 확인할 수 있습니다. <br>
+  https://github.com/openvinotoolkit/open_model_zoo/tree/master/models
+  
+### 인텔 OpenVINO pre-trained 모델을 활용하여 소셜임펙트 창출 AI 프로젝트를 개발해 봅시다.
