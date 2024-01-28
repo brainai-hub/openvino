@@ -13,7 +13,7 @@
   
  - 설치 프로그램 및 버전 : Intel® OpenVINO 2023.3.3  참고 사이트: [https://docs.openvino.ai/2023.3.3/index.html](https://docs.openvino.ai/2023.3/home.html)
  
-   <img src="[https://docs.openvino.ai/2021.4/_static/images/ov_chart.png](https://docs.openvino.ai/2023.3/_images/ov_homepage_diagram.png)">
+   <img src="https://docs.openvino.ai/2023.3/_images/ov_homepage_diagram.png">
 
  1. OpenVINO 다운로드
  2. OpenVINO 설치
